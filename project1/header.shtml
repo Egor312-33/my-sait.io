@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head> 
+        
+       
+      </head>
+    <header>
+    
+      <div class="capp" >
+        <a href="aa.html">
+        <img class = "logo" src="_im_fec8af04-1062-40a7-8db6-01b8f73bcfae.png" alt="LOGO">
+        </a>
+        <div>
+          <form action="#" method="post">
+         <input type="search" class="search" id="search" value="Поиск">
+         <button type="submit" name= "search_button" class="search_button" size="15px">Поиск</button>
+                           </form>
+          </div>
+          <div class = "registration"> 
+            <a href="signin.html">Авторизация</a> 
+            <a href="signup.html">Регистрация</a>
+         </div>
+        
+         <div  class ="seti">                                                                   
+          <img src="y.png" alt="Социальные кнопки"  width = "40">
+          <img src="tg.png" alt="Социальные кнопки"  width = "37">
+          <img src="tt.png" alt="Социальные кнопки"  width = "36"  height = "55">
+          <img src="y.png" alt="Социальные кнопки"  width = "40">
+        <p>Мы в социальных сетях!</p>
+         </div>
+        </div>
+        <div class="panel">
+          <a href="#">Новости</a> 
+          <a href="#">Статьи</a>
+          <a href="#">Форум</a>
+          <a href="#">О сайте</a>
+        </div>
+      
+      </header>
+      
+    
+    
+    
+    
+      <body> 
+      <div class ="body1"> 
+        <section class = "napravl" id="sidebar">
+          <ul>
+            <h1>Обновления по <br>
+              популярным направлениям</h1>
+             <li>
+             <a href="post.html">Заголовок направления 1</a>
+             </li>
+             <li>
+             <a href="post.html">Заголовок направления 2</a>
+             </li>
+             <li>
+             <a href="post.html">Заголовок направления 3</a>
+             </li>
+             <li>
+             <a href="post.html">Заголовок направления 4</a>
+             </li>
+             <li>
+             <a href="post.html">Заголовок направления 5</a>
+             </li>
+             <li>
+             <a href="post.html">Заголовок направления 6</a>
+             </li>
+          
+             </ul>
+            </section>
+        
+    <div class="wrapper"> 
+      <h1> Регистрация </h1>
+    <form>
+      <div class = "input-box">
+        <a> ЛОГИН:</a>  <input type="text" placeholder="Логин" required>
+        <i class="bx bx-login"></i>
+      </div>
+      <div class = "input-box">
+        <a> ИМЯ: </a><input type="text" placeholder="Имя" required>
+        <i> </i>
+      </div>
+      <div class = "input-box">
+        <a> ФАМИЛИЯ: </a> <input type="text" placeholder="Фамилия" required>
+      </div>
+      <div class = "input-box">
+        <a> E-MAIL: </a> <input type="email" placeholder="Почта" required>
+      </div>
+      <div class = "input-box">
+        <a> ТЕЛЕФОН: </a> <input type="tel" placeholder="Телефон" required>
+      </div>
+      <div class = "input-box">
+        <a> ПАРОЛЬ: </a> <input type="password" placeholder="Пароль" required>
+      </div>
+      <div class = "input-box">
+        <a> Подтвердите <br> пароль:  </a> <input type="password" placeholder="Подтверждение пароля" required>
+      </div>
+    
+      <div class ="remember"> 
+        <input type="checkbox" id="agree">
+        <label for="agree"><i>Я согласен с правилами и условиями</i></label>
+        <a href ="#"> Забыли пароль?</a>
+      </div>
+    
+      <button type="submit" class="bin"> Войти </button>
+    
+      <div class="register-link"> 
+        <p> Нет аккаунта? <a href="#" > Регистрация </a></p>
+      </div>
+    </form>
+    </div>
+    </div>
+    
+
+
+    .input-box a{
+      position: absolute;
+      left: -70px;
+      top: 50%;
+  
+      
+  }
+  <div class = "input-box">
+    <a> E-MAIL: </a> <input type="email" placeholder="Почта" required>
+  </div>
